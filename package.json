@@ -8,10 +8,10 @@
     "lint": "eslint ./src --ext .ts --config package.json",
     "start": "npm run build && node dist/index",
     "watch": "nodemon src/index.ts",
-    "deploy": "gcloud run deploy fastify-api-domen --image gcr.io/gcp-competence-group/fastify-api-domen:latest --platform managed --region europe-central2",
-    "docker:build": "docker build -t fastify-api-domen .",
-    "docker:tag": "docker tag fastify-api-domen gcr.io/gcp-competence-group/fastify-api-domen",
-    "docker:push": "docker push gcr.io/gcp-competence-group/fastify-api-domen"
+    "deploy": "gcloud run deploy fastify-api-pavel-v3 --image gcr.io/gcp-competence-group/fastify-api-pavel:latest --platform managed --region europe-central2",
+    "docker:build": "docker build -t fastify-api-pavel .",
+    "docker:tag": "docker tag fastify-api-pavel gcr.io/gcp-competence-group/fastify-api-pavel",
+    "docker:push": "docker push gcr.io/gcp-competence-group/fastify-api-pavel"
   },
   "repository": {
     "type": "git",
