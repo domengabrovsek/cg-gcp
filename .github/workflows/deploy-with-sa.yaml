@@ -23,4 +23,4 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v1'
 
       - name: 'Use gcloud CLI'
-        run: gcloud run deploy fastify-api-domen --image gcr.io/gcp-competence-group/fastify-api-domen:latest --platform managed --region europe-central2
+        run: gcloud run deploy fastify-api-[INSERT_YOUR_NAME_HERE] --image gcr.io/gcp-competence-group/fastify-api-[INSERT_YOUR_NAME_HERE]:latest --platform managed --region europe-central2
