@@ -33,11 +33,11 @@ To prepare our REST API for running in Cloud Run, we will package it in a Docker
 
 Steps:
 
-- Replace [INSERT_YOUR_NAME_HERE] with your name in all files to ensure unique naming that won't clash with other people's deployments.
+- Replace luka with your name in all files to ensure unique naming that won't clash with other people's deployments.
 
-- Build the Docker image locally using the prepared node script. Run the command npm run docker:build. This will build the Docker image locally and name it fastify-api-[INSERT_YOUR_NAME_HERE].
+- Build the Docker image locally using the prepared node script. Run the command npm run docker:build. This will build the Docker image locally and name it fastify-api-luka.
 
-- Tag the image using the command npm run docker:tag. This will rename your image to gcr.io/gcp-competence-group/fastify-api-[INSERT_YOUR_NAME_HERE].
+- Tag the image using the command npm run docker:tag. This will rename your image to gcr.io/gcp-competence-group/fastify-api-luka.
 
 - Push the image using the command npm run docker:push. The "name" of the image equals the full repository URL to it.
 - Check the URL <https://console.cloud.google.com/gcr/images/gcp-competence-group?project=gcp-competence-group> to see your pushed image.

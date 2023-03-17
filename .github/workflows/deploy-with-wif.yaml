@@ -29,4 +29,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
 
       - name: Deploy Cloud Run
-        run: gcloud run deploy fastify-api-[INSERT_YOUR_NAME_HERE] --image gcr.io/gcp-competence-group/fastify-api-[INSERT_YOUR_NAME_HERE]:latest --platform managed --region europe-central2
+        run: gcloud run deploy fastify-api-luka --image gcr.io/gcp-competence-group/fastify-api-luka:latest --platform managed --region europe-central2
