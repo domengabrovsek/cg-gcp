@@ -20,7 +20,7 @@ jobs:
         with:
           token_format: access_token # can also get id-token to use for authorization
           # Which provider to use for SA impersonation (projects/<gcp-project-number>/locations/global/workloadIdentityPools/<my-pool-name>/providers/<my-provider>)
-          workload_identity_provider: https://iam.googleapis.com/projects/388639942010/locations/global/workloadIdentityPools/pmaslov/providers/github-pmaslov
+          workload_identity_provider: projects/388639942010/locations/global/workloadIdentityPools/pmaslov/providers/github-pmaslov
           # Which SA to impersonate (aka login as)
           service_account: github-actions@gcp-competence-group.iam.gserviceaccount.com
 
